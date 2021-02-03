@@ -1,0 +1,63 @@
+<style>
+body{
+    margin:0;
+  }
+    a {
+      color: #138ef1; text-decoration:none;
+    padding-right: 10px;
+    padding-left: 10px;}
+  #logo{
+    font-size: 10px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 0px;
+    margin-bottom :0px;
+    background-color: black;}
+  #Dent{
+    padding-top: 30px;
+    text-align: center;
+    font-family:  'Noto Sans KR', sans-serif;}
+  #Dent_1{
+    font-size: 20px;
+  }
+
+  #Dent가격 {
+    padding-top: 10px;
+    color: gray;
+    text-align: center;
+  }
+  #index_main{
+  position: relative;
+  top: 60px;
+  text-align: center;
+  border-bottom: 20px solid orange;
+  padding-bottom: 0px;
+}
+
+  #price{
+
+    font-size: 1rem;
+    text-decoration-style: solid;
+    text-align: center;
+    color: blue;
+  }
+  ol{
+    border-right: 1px solid gray;
+    width: 100px;
+    margin: 0px;
+    padding: 20px;
+  }
+  #grid{
+
+    line-height: 1.5;
+    display: grid; grid-template :150px 1fr;}
+  #grid ol {padding-left:33px}
+  #article {padding-left: 25px;}
+
+  @media(max-width:800px)
+  {#grid {display:block;}
+  ol{border-right:none;}
+  h1{border-bottom:none;}
+  }
+
+</style>
