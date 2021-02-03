@@ -1,46 +1,66 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>온양칼라테크</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=divice-width, initial=1.0">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R94NXFTECV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-R94NXFTECV');
-</script>
-</head>
-<body>
-<div id="logo">
-    <a href="index.html">
-    <img src="logo.png" a href="index.html" >
-    </a>
-  </div>
+<style>
+html{
+  margin: 0;
+}
+body{
+    margin:0;
+  }
+    a {
+      color: #138ef1; text-decoration:none;
+    padding-right: 10px;
+    padding-left: 10px;}
+  #logo{
+    font-size: 10px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 0px;
+    margin-bottom :0px;
+    background-color: #3e3c3c;}
+  #Dent{
+    padding-top: 30px;
+    text-align: center;
+    font-family:  'Noto Sans KR', sans-serif;}
+  #Dent_1{
+    font-size: 20px;
+  }
 
-<div id = Dent>
-  <h1>DENT - 덴트</h1>
-<div id = Dent_1>
-  새차, 그 이상의 만족감
-</div>
-</div>
+  #Dent가격 {
+    padding-top: 10px;
+    color: gray;
+    text-align: center;
+  }
+  #index_main{
+  position: relative;
+  top: 60px;
+  text-align: center;
+  border-bottom: 20px solid orange;
+  padding-bottom: 40px;
+}
 
-<div id = Dent가격>
-  <h5>가격은 ₩50,000 부터</h5>
-</div>
+  #price{
 
-<div id = price>
-<a> 평균 견적표 > </a>
-<a> 견적 문의 > </a>
-</div>
+    font-size: 1rem;
+    text-decoration-style: solid;
+    text-align: center;
+    color: blue;
+  }
+  ol{
+    border-right: 1px solid gray;
+    width: 100px;
+    margin: 0px;
+    padding: 20px;
+  }
+  #grid{
 
-<div id = index_main>
-<img src="index_main2.png" width="400"  >
+    line-height: 1.5;
+    display: grid; grid-template :150px 1fr;}
+  #grid ol {padding-left:33px}
+  #article {padding-left: 25px;}
 
-</div>
+  @media(max-width:800px)
+  {#grid {display:block;}
+  ol{border-right:none;}
+  h1{border-bottom:none;}
+  }
 
-</body>
+</style>
